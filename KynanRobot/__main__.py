@@ -73,7 +73,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʟʟᴏ {} !* [🏵](https://telegra.ph/file/171f811fc6233014ff7e7.jpg)
+*ʜᴇʟʟᴏ {} !* [🇮🇩](https://telegra.ph/file/07f22f73ad08e6ba72f7a.jpg)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━
 {} ᴅɪʙᴜᴀᴛ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ᴅᴀɴ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴋ ᴅɪɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ʙᴇʀʙᴀɢᴀɪ ꜰɪᴛᴜʀ.
@@ -88,9 +88,9 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/milkfortunate"
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/quntulharam"
         ),
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/deliciousmilk"
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/pantekyks"
         ),
     ],
     [
@@ -102,7 +102,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ʜɪɴᴀᴛᴀ➗", url="https://t.me/HinataManage_Bot?startgroup=true"
+            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ᴄʙ ʀᴏʙᴏᴛ➗", url="https://t.me/CbTapiBot?startgroup=true"
         ),
      ],
 ]
@@ -220,7 +220,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ʜɪ,ʜɪɴᴀᴛᴀ sᴇɴᴀɴɢ ʙᴇʀᴛᴇᴍᴜ ᴅᴇɴɢᴀɴ ᴍᴜ \n<b>​  :</b> <code>{}</code>".format(
+            caption="ʜɪ,ᴄʙ ʀᴏʙᴏᴛ sᴇɴᴀɴɢ ʙᴇʀᴛᴇᴍᴜ ᴅᴇɴɢᴀɴ ᴍᴜ \n<b>​  :</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -492,8 +492,8 @@ def kynan_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ϙʀɪs", url="https://telegra.ph/file/0b209e6d3384acc75c043.jpg"),
-                    InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", url="https://t.me/milkfortunate"),
+                    InlineKeyboardButton(text="ϙʀɪs", url="https://telegra.ph/file/bbb09641c37d1795b7945.jpg"),
+                    InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", url="https://t.me/quntulharam"),
                  ],
                  [
                     InlineKeyboardButton(text="« ᴋᴇᴍʙᴀʟɪ", callback_data="kynan_back"),
@@ -800,7 +800,7 @@ def main():
                 chat_id=f"@{SUPPORT_CHAT}",
                 photo=START_IMG,
                 caption=f"""
-**ʜᴀɪ ᴀᴋᴜ ʜɪɴᴀᴛᴀ ᴀᴋᴜ ʜɪᴅᴜᴘ**
+**ʜᴀɪ ᴀᴋᴜ ᴄʙ ʀᴏʙᴏᴛ ᴀᴋᴜ ʜɪᴅᴜᴘ**
 
 ┏━━━━━━━━━━━━━━━━━━━┓
 ┠ **ᴘʏᴛʜᴏɴ :** `{y()}`
